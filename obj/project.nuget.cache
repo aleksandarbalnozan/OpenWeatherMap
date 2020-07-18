@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "M1WhNCDUXjt3seOH3fy+i3ICLjHRtmBqH+pvA4Z5PacwcmHCCgsnIjGpv3HsO76AUY1ZPpg+Z2YcVdEHbmcpow==",
+  "success": true,
+  "projectFilePath": "A:\\Portfolio\\WeatherWPF\\WeatherWPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\balno\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,27 @@
+﻿<Window x:Class="WeatherWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeatherWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="450">
+    <Grid>
+        <TextBox x:Name="textBoxLat" HorizontalAlignment="Left" Margin="61,22,0,0" Text="Lat" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" GotFocus="textBoxLat_GotFocus" Width="120" Height="26"/>
+        <TextBox x:Name="textBoxLon" HorizontalAlignment="Left" Margin="263,23,0,0" Text="Lon" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" GotFocus="textBoxLon_GotFocus" Width="120" Height="25"/>
+        <TextBox x:Name="textBoxCity" HorizontalAlignment="Left" Margin="155,66,0,0" Text="City" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" GotFocus="textBoxCity_GotFocus" Width="120" Height="25"/>
+        <Button x:Name="button" Content="Show Weather" HorizontalAlignment="Left" Margin="155,369,0,0" VerticalAlignment="Top" Height="30" Width="120" Click="button_Click"/>
+        <TextBlock x:Name="textBlockMinTemp" FontSize="30" TextAlignment="Center" HorizontalAlignment="Left" Margin="16,130,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Height="48" Width="113"/>
+        <TextBlock x:Name="textBlockTemp" FontSize="30" TextAlignment="Center" HorizontalAlignment="Left" Margin="16,214,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Height="48" Width="113"/>
+        <TextBlock x:Name="textBlockMaxTemp" FontSize="30" TextAlignment="Center" HorizontalAlignment="Left" Margin="16,305,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Height="48" Width="113"/>
+        <TextBlock x:Name="textBlockSunRise" FontWeight="Bold" HorizontalAlignment="Left" Margin="140,167,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="120"/>
+        <TextBlock x:Name="textBlockSunSet" FontWeight="Bold" HorizontalAlignment="Left" Margin="140,270,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="120"/>
+        <Label x:Name="label" Content="Sunrise" HorizontalAlignment="Left" Margin="176,128,0,0" VerticalAlignment="Top" Width="48"/>
+        <Label x:Name="label_Copy" Content="Sunset" HorizontalAlignment="Left" Margin="176,228,0,0" VerticalAlignment="Top" Width="48"/>
+        <Label x:Name="label1" Content="Min  C" HorizontalAlignment="Left" Margin="35,99,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy" Content="Max  C" HorizontalAlignment="Left" Margin="35,272,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy1" Content="Current C" HorizontalAlignment="Left" Margin="35,183,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy2" Content="Weather" HorizontalAlignment="Left" Margin="323,107,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxWeatehr"  HorizontalAlignment="Left" FontSize="25" FontWeight="Bold" Margin="280,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="169"/>
+    </Grid>
+</Window>

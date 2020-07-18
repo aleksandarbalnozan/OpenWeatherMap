@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\balno\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\balno\\.nuget\\packages"
+    ]
+  }
+}
